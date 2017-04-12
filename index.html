@@ -13,32 +13,73 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->	
 	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 50px 0 0 0; margin: 0 auto 0 50px !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
+/*    * { padding: 0; margin: 0; }
+    body { background-color: #333; }
+    p { color: #000; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+    a { color: #000; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+    h1 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        margin-bottom: 20px;
+        line-height: 130%;
+        color: #000;
+        text-shadow: none;
+    }
+*/
+
+  * { padding: 0; margin: 0; }
+  p { color: #000; font-family: Helvetica; font-size: 80%; line-height: 20px; margin-bottom: 15px; -webkit-font-smoothing: antialiased; }
+  #about a { color: #777; font-weight: bold; text-decoration: none; border-bottom: 0px solid rgb(15, 58, 45); }
+  #about a:hover { text-decoration: none; color: #888; border-bottom: 1px solid rgb(15, 58, 45); text-shadow: none; }
+  #logo { width: 50px; margin: 0; position: fixed; right: 50px; top: 50px;}
+  #about { width: 400px; padding: 50px 0 0 30px; margin: 0 auto 0 50px !important;}
+  h1 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; margin-bottom: 20px; line-height: 130%; color: #000; text-shadow: none;}
+  ul#connect{white-space:nowrap;width: 400px; padding: 10px 0 0 20px; margin: 0 auto 0 50px !important;}
+  #connect li{display:inline;list-style-type:none;}
+  #connect a{text-decoration: none;padding:3px 5px;border-style: none;}
+  #connect a:link,#navlist a:visited{text-decoration: none;opacity:0.2;border-style: none;}
+  #connect a:hover{text-decoration: none;opacity:0.4;border-style: none;}
+  #connect img {border:none;}
+  span{color:#333;}
+	
+/*    a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+    #monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+    #textheader { width: 500px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+    #about { width: 400px; padding: 50px 0 0 0; margin: 0 auto 0 50px !important; }
+    @media (max-width: 767px) {
+      #monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+      #about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+      background-image { opacity: 0.2; }
+    }*/
 	</style>
 </head>	
     
 <body>
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="monogram.png" />
-</div>
 
 <!-- swap out for information about yourself -->
 <div id="about">
+  <h1>Johannes M. Schleicher</h1>
 	<p>This will become a personal page </p> 
 </div>
+
+<ul id="connect">
+  <li>
+    <a href="">
+      <img src="twitter.png" />
+    </a>
+  </li>
+  <li>
+    <a href="">
+      <img src="linkedin.png" />
+    </a>
+  </li>
+  <li>
+    <a href="">
+      <img src="email.png" />
+    </a>
+  </li>
+</ul>
 
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -47,7 +88,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("IMG_8922_effect.jpg", {speed: 150});
+             $.backstretch("profil_2.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
