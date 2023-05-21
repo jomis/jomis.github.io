@@ -7,13 +7,22 @@
             background-color: #FFFFFF; /* Replacing the yellow background with white */
             color: #000000; /* Replace with your preferred color */
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+        .text-section {
+            width: 45%;
         }
         h1 {
             font-size: 5em; /* Adjust as needed */
@@ -23,12 +32,29 @@
             font-size: 2em; /* Adjust as needed */
             margin-top: 0.5em;
         }
+        img {
+            width: 45%; 
+            height: auto;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .text-section, img {
+                width: 80%;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Hi, I'm Your Name</h1> <!-- Replace 'Your Name' with your actual name -->
-    <p>Your Role</p> <!-- Replace 'Your Role' with your actual role -->
-    <p>Additional Role</p> <!-- Replace 'Additional Role' with another role or delete this line if not needed -->
-    <p>"Your Quote"</p> <!-- Replace 'Your Quote' with your actual quote -->
+    <div class="container">
+        <div class="text-section">
+            <h1>Hi, I'm Your Name</h1> <!-- Replace 'Your Name' with your actual name -->
+            <p>Your Role</p> <!-- Replace 'Your Role' with your actual role -->
+            <p>Additional Role</p> <!-- Replace 'Additional Role' with another role or delete this line if not needed -->
+            <p>"Your Quote"</p> <!-- Replace 'Your Quote' with your actual quote -->
+        </div>
+        <img src="path-to-your-image.jpg" alt="Description of image"> <!-- Replace 'path-to-your-image.jpg' with the actual path to your image -->
+    </div>
 </body>
 </html>
