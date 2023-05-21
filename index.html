@@ -3,9 +3,9 @@
 <head>
     <style>
         body {
-            font-family: 'Arial', sans-serif; /* Feel free to replace 'Arial' with any font you prefer */
-            background-color: #FFFFFF; /* Replacing the yellow background with white */
-            color: #000000; /* Replace with your preferred color */
+            font-family: 'Arial', sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -13,6 +13,7 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            position: relative;
         }
         .container {
             display: flex;
@@ -25,23 +26,35 @@
             width: 45%;
         }
         h1 {
-            font-size: 5em; /* Adjust as needed */
+            font-size: 5em;
             margin-bottom: 0.5em;
         }
         p {
-            font-size: 2em; /* Adjust as needed */
+            font-size: 2em;
             margin-top: 0.5em;
         }
-        img {
-            width: 45%; 
-            height: auto;
+        .quote {
+            font-size: 10em;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-family: 'KanjiStrokeOrders', sans-serif;
+        }
+        a.disclaimer {
+            position: absolute;
+            bottom: 10px;
+            color: #F2F2F2;
+            font-size: 0.5em;
+            text-decoration: none;
         }
         @media screen and (max-width: 768px) {
             .container {
                 flex-direction: column;
             }
-            .text-section, img {
+            .text-section, .quote {
                 width: 80%;
+            }
+            .quote {
+                font-size: 5em;
             }
         }
     </style>
@@ -49,11 +62,11 @@
 <body>
     <div class="container">
         <div class="text-section">
-            <h1>Hi, I'm Johannes M. Schleicher</h1> <!-- Replace 'Your Name' with your actual name -->
-            <p>Explorer, Creator, Storyteller and Scientist</p> <!-- Replace 'Your Role' with your actual role -->
-    		<p>"Impossible is just a matter of perspective."</p> <!-- Replace 'Your Quote' with your actual quote -->
+            <h1>Hi, my name is Johannes M. Schleicher</h1>
+            <p>and I am whoever I want to be</p>
         </div>
-        <img src="profil_2.jpg" alt="Description of image"> <!-- Replace 'path-to-your-image.jpg' with the actual path to your image -->
+        <p class="quote">∞</p>
     </div>
+    <a class="disclaimer" href="disclaimer.html">Disclaimer</a>
 </body>
 </html>
