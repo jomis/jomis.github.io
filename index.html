@@ -2,8 +2,6 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap" rel="stylesheet">
@@ -88,10 +86,26 @@
       font-size: 0.5em;
       width: 20%
     }
+    @media only screen and (min-width: 768px) {
+      body {
+        flex-direction: row;
+      }
 
-    @media only screen and (max-width: 768px) {
-      .left, .right, .disclaimer, blockquote, .keys {
+      .left {
+        width: 50%;
+      }
+
+      .right {
+        width: 50%;
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      .right {
         display: none;
+      }
+      .left {
+        width: 100%;
       }
     }
   </style>
@@ -121,21 +135,5 @@
   <div class="disclaimer">
     <a href="impressum.html">01100100 01101001 01110011 01100011 01101100 01100001 01101001 01101101 01100101 01110010</a>
   </div>
-
-  <div id="qrcode"></div>
-
-  <script>
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      var name = "Dr. Johannes M. Schleicher";
-      var email = "me@jomis.net";
-      var qrCodeData = "MECARD:N:" + name + ";EMAIL:" + email + ";;";
-      
-      var qr = new QRCode(document.getElementById("qrcode"), {
-        text: qrCodeData,
-        width: 200,
-        height: 200
-      });
-    }
-  </script>
 </body>
 </html>
