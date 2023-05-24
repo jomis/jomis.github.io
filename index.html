@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/qrcode.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e4c0472845.js" crossorigin="anonymous"></script>
-
-
   <style>
     body {
       font-family: 'Noto Sans JP', sans-serif;
@@ -22,7 +23,6 @@
       padding-top: 10%;
       width: 50%;
       vertical-align: middle;
-
     }
 
     .left h1 {
@@ -88,9 +88,14 @@
       font-size: 0.5em;
       width: 20%
     }
+
+    @media only screen and (max-width: 768px) {
+      .left, .right, .disclaimer, blockquote, .keys {
+        display: none;
+      }
+    }
   </style>
 </head>
-
 <body>
   <div class="left">
     <h1>Dr. Johannes M. Schleicher</h1>
@@ -116,5 +121,21 @@
   <div class="disclaimer">
     <a href="impressum.html">01100100 01101001 01110011 01100011 01101100 01100001 01101001 01101101 01100101 01110010</a>
   </div>
+
+  <div id="qrcode"></div>
+
+  <script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      var name = "Dr. Johannes M. Schleicher";
+      var email = "me@jomis.net";
+      var qrCodeData = "MECARD:N:" + name + ";EMAIL:" + email + ";;";
+      
+      var qr = new QRCode(document.getElementById("qrcode"), {
+        text: qrCodeData,
+        width: 200,
+        height: 200
+      });
+    }
+  </script>
 </body>
 </html>
