@@ -19,6 +19,10 @@
       text-align: left;
     }
 
+    .left h1 {
+      font-size: 2.5em;
+    }
+
     .left a {
       color: #333;
       text-decoration: none;
@@ -53,6 +57,23 @@
     .disclaimer a:hover {
       color: #eee;
     }
+
+    blockquote {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.2em;
+      color: #777;
+      margin: 10px;
+      padding: 10px;
+      quotes: "“" "”" "‘" "’";
+    }
+
+    blockquote:before {
+      content: open-quote;
+    }
+
+    blockquote:after {
+      content: close-quote;
+    }
   </style>
 </head>
 
@@ -63,6 +84,7 @@
     <a href="https://twitter.com/yourtwitterhandle" target="_blank">Twitter</a>
     <br>
     <a href="mailto:[your-email]">Email</a>
+    <blockquote>A Zen quote here...</blockquote>
   </div>
 
   <div class="right">
