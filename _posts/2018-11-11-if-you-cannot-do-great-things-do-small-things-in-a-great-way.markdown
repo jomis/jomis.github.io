@@ -3,7 +3,7 @@ layout: post
 title:  If you cannot do great things, do small things in a great way
 description:
 date:   2018-11-11 15:01:35 +0300
-image:  '/images/04.jpg'
+image:  '/images/fillerimage_blog_1.png'
 tags:   [lifestyle, rest, notes]
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace [Joel Filipe](https://unsplash.com/photos/4NZlogMPIp0) diversity and empowerment.

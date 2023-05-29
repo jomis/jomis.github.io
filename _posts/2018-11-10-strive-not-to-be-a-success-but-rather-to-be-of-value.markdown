@@ -2,7 +2,7 @@
 layout: post
 title:  Strive not to be a success, but rather to be of value
 date:   2018-11-10 15:01:35 +0300
-image:  '/images/09.jpg'
+image:  '/images/fillerimage_blog_2.png'
 tags:   [technology, workflow, story]
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace [Maurizio Vele](https://unsplash.com/photos/SxkqtJAY9Ic)diversity and empowerment.
