@@ -4,9 +4,6 @@ title: Disclaimer
 permalink: /disclaimer/
 
 ---
-
-Leverage agile frameworks to provide a robust [Hugo Sousa](https://unsplash.com/photos/BghGseQbAkA) synopsis for high level overviews. Iterative a
-
 # Impressum
 
 Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
@@ -23,7 +20,7 @@ UID-Nummer: ATU61975125
 E-Mail: me@jomis.net
 
 ## EU-Streitschlichtung
-Angaben zur Online-Streitbeilegung: Verbraucher haben die Möglichkeit, Beschwerden an die OnlineStreitbeilegungsplattform der EU zu richten: (https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE). Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten.
+Angaben zur Online-Streitbeilegung: Verbraucher haben die Möglichkeit, Beschwerden an die OnlineStreitbeilegungsplattform der EU zu richten: [Hier](https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE). Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten.
 
 ## Haftung für Inhalte dieser Webseite
 Wir entwickeln die Inhalte dieser Webseite ständig weiter und bemühen uns korrekte und aktuelle Informationen bereitzustellen. Leider können wir keine Haftung für die Korrektheit aller Inhalte auf dieser Webseite übernehmen, speziell für jene die seitens Dritter bereitgestellt wird. Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns umgehend zu kontaktieren, Sie finden die Kontaktdaten im Impressum.
