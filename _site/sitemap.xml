@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/about/</loc>
+<loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>/contact/</loc>
+<loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
-<loc>/disclaimer/</loc>
+<loc>http://localhost:4000/disclaimer/</loc>
 </url>
 <url>
-<loc>/elements/</loc>
+<loc>http://localhost:4000/elements/</loc>
 </url>
 <url>
-<loc>/blog/</loc>
+<loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
-<loc>/images/CV_Schleicher_EN_2024.pdf</loc>
+<loc>http://localhost:4000/images/CV_Schleicher_EN_2024.pdf</loc>
 <lastmod>2025-03-25T14:23:24+01:00</lastmod>
 </url>
 </urlset>
