@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /images/CV_Schleicher_EN_2024.pdf 

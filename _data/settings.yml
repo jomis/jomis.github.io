@@ -14,8 +14,6 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: 'https://www.mentalflares.com'
-    - title: 'CV'
-      url: '/images/CV_Schleicher_EN_2024.pdf'
 
 
 #-------------------------------
